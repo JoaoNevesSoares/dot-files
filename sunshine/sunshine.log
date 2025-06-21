@@ -1,0 +1,301 @@
+[2025-06-20 14:53:50.727]: Info: Sunshine version: 0.0.0.dirty
+[2025-06-20 14:53:50.727]: Info: Package Publisher: Third Party Publisher
+[2025-06-20 14:53:50.727]: Info: Publisher Website: 
+[2025-06-20 14:53:50.727]: Info: Get support: https://app.lizardbyte.dev/support
+[2025-06-20 14:53:50.727]: Info: config: 'port' = 47989
+[2025-06-20 14:53:50.744]: Info: /dev/dri/card1 -> i915
+[2025-06-20 14:53:50.746]: Error: Environment variable WAYLAND_DISPLAY has not been defined
+[2025-06-20 14:53:50.746]: Info: Detecting displays
+[2025-06-20 14:53:50.943]: Info: Detected display: eDP-1 (id: 0)eDP-1 connected: true
+[2025-06-20 14:53:50.943]: Info: Detected display: DP-1 (id: 1)DP-1 connected: false
+[2025-06-20 14:53:50.945]: Info: Detected display: HDMI-1 (id: 2)HDMI-1 connected: false
+[2025-06-20 14:53:50.945]: Info: Detected display: DP-2 (id: 3)DP-2 connected: false
+[2025-06-20 14:53:50.946]: Info: Detected display: HDMI-2 (id: 4)HDMI-2 connected: false
+[2025-06-20 14:53:51.154]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
+[2025-06-20 14:53:51.154]: Info: Trying encoder [nvenc]
+[2025-06-20 14:53:51.155]: Info: Screencasting with KMS
+[2025-06-20 14:53:51.155]: Info: /dev/dri/card1 -> i915
+[2025-06-20 14:53:51.155]: Error: Couldn't find monitor [0]
+[2025-06-20 14:53:51.156]: Info: /dev/dri/card1 -> i915
+[2025-06-20 14:53:51.156]: Error: Couldn't find monitor [0]
+[2025-06-20 14:53:51.356]: Info: Screencasting with KMS
+[2025-06-20 14:53:51.357]: Info: /dev/dri/card1 -> i915
+[2025-06-20 14:53:51.357]: Error: Couldn't find monitor [0]
+[2025-06-20 14:53:51.357]: Info: /dev/dri/card1 -> i915
+[2025-06-20 14:53:51.357]: Error: Couldn't find monitor [0]
+[2025-06-20 14:53:51.448]: Info: System tray created
+[2025-06-20 14:53:51.557]: Info: Encoder [nvenc] failed
+[2025-06-20 14:53:51.558]: Info: Trying encoder [vaapi]
+[2025-06-20 14:53:51.558]: Info: Screencasting with KMS
+[2025-06-20 14:53:51.558]: Info: /dev/dri/card1 -> i915
+[2025-06-20 14:53:51.559]: Info: Found monitor for DRM screencasting
+[2025-06-20 14:53:51.559]: Info: Found connector ID [81]
+[2025-06-20 14:53:51.560]: Info: Found cursor plane [42]
+[2025-06-20 14:53:51.561]: Error: Couldn't initialize va display: unknown libva error
+[2025-06-20 14:53:51.561]: Warning: Monitor  doesn't support hardware encoding. Reverting back to GPU -> RAM -> GPU
+[2025-06-20 14:53:51.561]: Info: /dev/dri/card1 -> i915
+[2025-06-20 14:53:51.562]: Info: Found monitor for DRM screencasting
+[2025-06-20 14:53:51.562]: Info: Found connector ID [81]
+[2025-06-20 14:53:51.563]: Info: Found cursor plane [42]
+[2025-06-20 14:53:51.603]: Info: Creating encoder [h264_vaapi]
+[2025-06-20 14:53:51.604]: Info: Color coding: SDR (Rec. 601)
+[2025-06-20 14:53:51.604]: Info: Color depth: 8-bit
+[2025-06-20 14:53:51.604]: Info: Color range: JPEG
+[2025-06-20 14:53:51.653]: Error: Couldn't initialize va display: unknown libva error
+[2025-06-20 14:53:51.658]: Info: Creating encoder [h264_vaapi]
+[2025-06-20 14:53:51.659]: Info: Color coding: SDR (Rec. 601)
+[2025-06-20 14:53:51.659]: Info: Color depth: 8-bit
+[2025-06-20 14:53:51.659]: Info: Color range: JPEG
+[2025-06-20 14:53:51.690]: Error: Couldn't initialize va display: unknown libva error
+[2025-06-20 14:53:51.694]: Info: Encoder [vaapi] failed
+[2025-06-20 14:53:51.697]: Info: Trying encoder [software]
+[2025-06-20 14:53:51.697]: Info: Screencasting with KMS
+[2025-06-20 14:53:51.698]: Info: /dev/dri/card1 -> i915
+[2025-06-20 14:53:51.698]: Info: Found monitor for DRM screencasting
+[2025-06-20 14:53:51.698]: Info: Found connector ID [81]
+[2025-06-20 14:53:51.699]: Info: Found cursor plane [42]
+[2025-06-20 14:53:51.729]: Info: Creating encoder [libx264]
+[2025-06-20 14:53:51.729]: Info: Color coding: SDR (Rec. 601)
+[2025-06-20 14:53:51.730]: Info: Color depth: 8-bit
+[2025-06-20 14:53:51.730]: Info: Color range: JPEG
+[2025-06-20 14:53:51.730]: Info: Streaming bitrate is 1000000
+[2025-06-20 14:53:51.739]: Info: [libx264 @ 0x5601cf9f78c0] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[2025-06-20 14:53:51.744]: Info: [libx264 @ 0x5601cf9f78c0] profile High, level 4.2, 4:2:0, 8-bit
+[2025-06-20 14:53:51.855]: Info: [libx264 @ 0x5601cf9f78c0] frame I:1     Avg QP:31.00  size:  1203
+[2025-06-20 14:53:51.855]: Info: [libx264 @ 0x5601cf9f78c0] mb I  I16..4: 99.9%  0.0%  0.0%
+[2025-06-20 14:53:51.855]: Info: [libx264 @ 0x5601cf9f78c0] 8x8 transform intra:0.0%
+[2025-06-20 14:53:51.855]: Info: [libx264 @ 0x5601cf9f78c0] coded y,uvDC,uvAC intra: 0.0% 0.0% 0.0%
+[2025-06-20 14:53:51.855]: Info: [libx264 @ 0x5601cf9f78c0] i16 v,h,dc,p: 97%  0%  3%  0%
+[2025-06-20 14:53:51.855]: Info: [libx264 @ 0x5601cf9f78c0] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu:  0%  0% 75% 12%  0%  0%  0%  0% 12%
+[2025-06-20 14:53:51.855]: Info: [libx264 @ 0x5601cf9f78c0] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu:  0%  0% 100%  0%  0%  0%  0%  0%  0%
+[2025-06-20 14:53:51.855]: Info: [libx264 @ 0x5601cf9f78c0] i8c dc,h,v,p: 100%  0%  0%  0%
+[2025-06-20 14:53:51.855]: Info: [libx264 @ 0x5601cf9f78c0] kb/s:577.44
+[2025-06-20 14:53:51.857]: Info: Creating encoder [libx264]
+[2025-06-20 14:53:51.857]: Info: Color coding: SDR (Rec. 601)
+[2025-06-20 14:53:51.857]: Info: Color depth: 8-bit
+[2025-06-20 14:53:51.858]: Info: Color range: JPEG
+[2025-06-20 14:53:51.858]: Info: Streaming bitrate is 1000000
+[2025-06-20 14:53:51.863]: Info: [libx264 @ 0x5601cf9f78c0] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[2025-06-20 14:53:51.870]: Info: [libx264 @ 0x5601cf9f78c0] profile High 4:4:4 Predictive, level 4.2, 4:4:4, 8-bit
+[2025-06-20 14:53:51.989]: Info: [libx264 @ 0x5601cf9f78c0] frame I:1     Avg QP:31.00  size:  1313
+[2025-06-20 14:53:51.989]: Info: [libx264 @ 0x5601cf9f78c0] mb I  I16..4: 99.9%  0.0%  0.0%
+[2025-06-20 14:53:51.989]: Info: [libx264 @ 0x5601cf9f78c0] 8x8 transform intra:0.0%
+[2025-06-20 14:53:51.989]: Info: [libx264 @ 0x5601cf9f78c0] coded y,u,v intra: 0.0% 0.0% 0.0%
+[2025-06-20 14:53:51.989]: Info: [libx264 @ 0x5601cf9f78c0] i16 v,h,dc,p: 97%  0%  3%  0%
+[2025-06-20 14:53:51.989]: Info: [libx264 @ 0x5601cf9f78c0] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu:  0%  0% 75% 12%  0%  0%  0%  0% 12%
+[2025-06-20 14:53:51.989]: Info: [libx264 @ 0x5601cf9f78c0] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu:  0%  0% 100%  0%  0%  0%  0%  0%  0%
+[2025-06-20 14:53:51.989]: Info: [libx264 @ 0x5601cf9f78c0] kb/s:630.24
+[2025-06-20 14:53:51.995]: Info: Screencasting with KMS
+[2025-06-20 14:53:51.995]: Info: /dev/dri/card1 -> i915
+[2025-06-20 14:53:51.995]: Info: Found monitor for DRM screencasting
+[2025-06-20 14:53:51.996]: Info: Found connector ID [81]
+[2025-06-20 14:53:51.996]: Info: Found cursor plane [42]
+[2025-06-20 14:53:52.030]: Info: 
+[2025-06-20 14:53:52.030]: Info: // Ignore any errors mentioned above, they are not relevant. //
+[2025-06-20 14:53:52.031]: Info: 
+[2025-06-20 14:53:52.031]: Info: Found H.264 encoder: libx264 [software]
+[2025-06-20 14:53:52.050]: Error: Failed to create client: Daemon not running
+[2025-06-20 14:53:52.054]: Info: Configuration UI available at [https://localhost:47990]
+[2025-06-20 14:56:09.273]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
+[2025-06-20 14:56:09.273]: Info: Trying encoder [nvenc]
+[2025-06-20 14:56:09.273]: Info: Screencasting with KMS
+[2025-06-20 14:56:09.273]: Info: /dev/dri/card1 -> i915
+[2025-06-20 14:56:09.274]: Error: Couldn't find monitor [0]
+[2025-06-20 14:56:09.274]: Info: /dev/dri/card1 -> i915
+[2025-06-20 14:56:09.274]: Error: Couldn't find monitor [0]
+[2025-06-20 14:56:09.474]: Info: Screencasting with KMS
+[2025-06-20 14:56:09.474]: Info: /dev/dri/card1 -> i915
+[2025-06-20 14:56:09.475]: Error: Couldn't find monitor [0]
+[2025-06-20 14:56:09.475]: Info: /dev/dri/card1 -> i915
+[2025-06-20 14:56:09.475]: Error: Couldn't find monitor [0]
+[2025-06-20 14:56:09.675]: Info: Encoder [nvenc] failed
+[2025-06-20 14:56:09.675]: Info: Trying encoder [vaapi]
+[2025-06-20 14:56:09.675]: Info: Screencasting with KMS
+[2025-06-20 14:56:09.676]: Info: /dev/dri/card1 -> i915
+[2025-06-20 14:56:09.676]: Info: Found monitor for DRM screencasting
+[2025-06-20 14:56:09.676]: Info: Found connector ID [81]
+[2025-06-20 14:56:09.677]: Info: Found cursor plane [42]
+[2025-06-20 14:56:09.677]: Error: Couldn't initialize va display: unknown libva error
+[2025-06-20 14:56:09.677]: Warning: Monitor  doesn't support hardware encoding. Reverting back to GPU -> RAM -> GPU
+[2025-06-20 14:56:09.677]: Info: /dev/dri/card1 -> i915
+[2025-06-20 14:56:09.678]: Info: Found monitor for DRM screencasting
+[2025-06-20 14:56:09.678]: Info: Found connector ID [81]
+[2025-06-20 14:56:09.679]: Info: Found cursor plane [42]
+[2025-06-20 14:56:09.712]: Info: Creating encoder [h264_vaapi]
+[2025-06-20 14:56:09.712]: Info: Color coding: SDR (Rec. 601)
+[2025-06-20 14:56:09.712]: Info: Color depth: 8-bit
+[2025-06-20 14:56:09.712]: Info: Color range: JPEG
+[2025-06-20 14:56:09.747]: Error: Couldn't initialize va display: unknown libva error
+[2025-06-20 14:56:09.751]: Info: Encoder [vaapi] failed
+[2025-06-20 14:56:09.754]: Info: Trying encoder [software]
+[2025-06-20 14:56:09.754]: Info: Screencasting with KMS
+[2025-06-20 14:56:09.755]: Info: /dev/dri/card1 -> i915
+[2025-06-20 14:56:09.755]: Info: Found monitor for DRM screencasting
+[2025-06-20 14:56:09.755]: Info: Found connector ID [81]
+[2025-06-20 14:56:09.756]: Info: Found cursor plane [42]
+[2025-06-20 14:56:09.785]: Info: Creating encoder [libx264]
+[2025-06-20 14:56:09.785]: Info: Color coding: SDR (Rec. 601)
+[2025-06-20 14:56:09.785]: Info: Color depth: 8-bit
+[2025-06-20 14:56:09.785]: Info: Color range: JPEG
+[2025-06-20 14:56:09.785]: Info: Streaming bitrate is 1000000
+[2025-06-20 14:56:09.788]: Info: [libx264 @ 0x7f02e404adc0] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[2025-06-20 14:56:09.795]: Info: [libx264 @ 0x7f02e404adc0] profile High, level 4.2, 4:2:0, 8-bit
+[2025-06-20 14:56:09.889]: Info: [libx264 @ 0x7f02e404adc0] frame I:1     Avg QP:31.00  size:  1205
+[2025-06-20 14:56:09.889]: Info: [libx264 @ 0x7f02e404adc0] mb I  I16..4: 99.9%  0.0%  0.0%
+[2025-06-20 14:56:09.889]: Info: [libx264 @ 0x7f02e404adc0] 8x8 transform intra:0.0%
+[2025-06-20 14:56:09.889]: Info: [libx264 @ 0x7f02e404adc0] coded y,uvDC,uvAC intra: 0.0% 0.0% 0.0%
+[2025-06-20 14:56:09.889]: Info: [libx264 @ 0x7f02e404adc0] i16 v,h,dc,p: 97%  0%  3%  0%
+[2025-06-20 14:56:09.889]: Info: [libx264 @ 0x7f02e404adc0] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu:  0%  0% 75% 12%  0%  0%  0%  0% 12%
+[2025-06-20 14:56:09.889]: Info: [libx264 @ 0x7f02e404adc0] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu:  0%  0% 100%  0%  0%  0%  0%  0%  0%
+[2025-06-20 14:56:09.889]: Info: [libx264 @ 0x7f02e404adc0] i8c dc,h,v,p: 100%  0%  0%  0%
+[2025-06-20 14:56:09.889]: Info: [libx264 @ 0x7f02e404adc0] kb/s:578.40
+[2025-06-20 14:56:09.890]: Info: Creating encoder [libx264]
+[2025-06-20 14:56:09.890]: Info: Color coding: SDR (Rec. 601)
+[2025-06-20 14:56:09.890]: Info: Color depth: 8-bit
+[2025-06-20 14:56:09.890]: Info: Color range: JPEG
+[2025-06-20 14:56:09.890]: Info: Streaming bitrate is 1000000
+[2025-06-20 14:56:09.895]: Info: [libx264 @ 0x7f02e404adc0] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[2025-06-20 14:56:09.901]: Info: [libx264 @ 0x7f02e404adc0] profile High 4:4:4 Predictive, level 4.2, 4:4:4, 8-bit
+[2025-06-20 14:56:10.007]: Info: [libx264 @ 0x7f02e404adc0] frame I:1     Avg QP:31.07  size:  1673
+[2025-06-20 14:56:10.007]: Info: [libx264 @ 0x7f02e404adc0] mb I  I16..4: 99.9%  0.0%  0.0%
+[2025-06-20 14:56:10.007]: Info: [libx264 @ 0x7f02e404adc0] 8x8 transform intra:0.0%
+[2025-06-20 14:56:10.007]: Info: [libx264 @ 0x7f02e404adc0] coded y,u,v intra: 0.1% 0.1% 0.1%
+[2025-06-20 14:56:10.007]: Info: [libx264 @ 0x7f02e404adc0] i16 v,h,dc,p: 97%  2%  1%  0%
+[2025-06-20 14:56:10.007]: Info: [libx264 @ 0x7f02e404adc0] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu:  0% 17% 58%  8%  0%  0%  0%  0% 17%
+[2025-06-20 14:56:10.007]: Info: [libx264 @ 0x7f02e404adc0] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu:  0% 31% 66%  0%  0%  0%  0%  0%  3%
+[2025-06-20 14:56:10.007]: Info: [libx264 @ 0x7f02e404adc0] kb/s:803.04
+[2025-06-20 14:56:10.012]: Info: Screencasting with KMS
+[2025-06-20 14:56:10.013]: Info: /dev/dri/card1 -> i915
+[2025-06-20 14:56:10.014]: Info: Found monitor for DRM screencasting
+[2025-06-20 14:56:10.014]: Info: Found connector ID [81]
+[2025-06-20 14:56:10.015]: Info: Found cursor plane [42]
+[2025-06-20 14:56:10.051]: Info: 
+[2025-06-20 14:56:10.051]: Info: // Ignore any errors mentioned above, they are not relevant. //
+[2025-06-20 14:56:10.051]: Info: 
+[2025-06-20 14:56:10.051]: Info: Found H.264 encoder: libx264 [software]
+[2025-06-20 14:56:10.052]: Info: Executing [Desktop]
+[2025-06-20 14:56:10.191]: Info: New streaming session started [active sessions: 1]
+[2025-06-20 14:56:10.254]: Info: CLIENT CONNECTED
+[2025-06-20 14:56:10.258]: Info: /dev/dri/card1 -> i915
+[2025-06-20 14:56:10.259]: Info: Screencasting with KMS
+[2025-06-20 14:56:10.259]: Info: /dev/dri/card1 -> i915
+[2025-06-20 14:56:10.260]: Info: Found monitor for DRM screencasting
+[2025-06-20 14:56:10.260]: Info: Found connector ID [81]
+[2025-06-20 14:56:10.260]: Info: Found cursor plane [42]
+[2025-06-20 14:56:10.294]: Info: Creating encoder [libx264]
+[2025-06-20 14:56:10.294]: Info: Color coding: SDR (Rec. 601)
+[2025-06-20 14:56:10.295]: Info: Color depth: 8-bit
+[2025-06-20 14:56:10.295]: Info: Color range: MPEG
+[2025-06-20 14:56:10.295]: Info: Streaming bitrate is 30988000
+[2025-06-20 14:56:10.297]: Info: [libx264 @ 0x7f02c0002580] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[2025-06-20 14:56:10.307]: Info: [libx264 @ 0x7f02c0002580] profile High, level 4.1, 4:2:0, 8-bit
+[2025-06-20 14:56:11.057]: Info: Found default monitor by name: 
+[2025-06-20 14:56:11.057]: Error: pa_simple_new() failed: Invalid argument
+[2025-06-20 14:56:11.057]: Error: Unable to initialize audio capture. The stream will not have audio.
+[2025-06-20 14:56:59.119]: Info: CLIENT DISCONNECTED
+[2025-06-20 14:56:59.124]: Info: [libx264 @ 0x7f02c0002580] frame I:7     Avg QP:24.92  size: 76671
+[2025-06-20 14:56:59.125]: Info: [libx264 @ 0x7f02c0002580] frame P:1232  Avg QP: 2.84  size: 17976
+[2025-06-20 14:56:59.126]: Info: [libx264 @ 0x7f02c0002580] mb I  I16..4: 10.1% 34.0% 55.9%
+[2025-06-20 14:56:59.128]: Info: [libx264 @ 0x7f02c0002580] mb P  I16..4:  0.2%  0.3%  0.8%  P16..4: 50.2%  0.0%  0.0%  0.0%  0.0%    skip:48.5%
+[2025-06-20 14:56:59.128]: Info: [libx264 @ 0x7f02c0002580] 8x8 transform intra:27.3% inter:9.1%
+[2025-06-20 14:56:59.128]: Info: [libx264 @ 0x7f02c0002580] coded y,uvDC,uvAC intra: 75.9% 75.1% 58.6% inter: 21.7% 12.2% 11.1%
+[2025-06-20 14:56:59.128]: Info: [libx264 @ 0x7f02c0002580] i16 v,h,dc,p: 49% 28%  6% 17%
+[2025-06-20 14:56:59.129]: Info: [libx264 @ 0x7f02c0002580] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 26% 17% 14%  6%  7% 10%  7%  6%  7%
+[2025-06-20 14:56:59.129]: Info: [libx264 @ 0x7f02c0002580] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 32% 25% 10%  5%  6%  6%  6%  5%  6%
+[2025-06-20 14:56:59.129]: Info: [libx264 @ 0x7f02c0002580] i8c dc,h,v,p: 37% 26% 31%  6%
+[2025-06-20 14:56:59.129]: Info: [libx264 @ 0x7f02c0002580] Weighted P-Frames: Y:0.0% UV:0.0%
+[2025-06-20 14:56:59.129]: Info: [libx264 @ 0x7f02c0002580] kb/s:8787.83
+[2025-06-20 14:57:40.414]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
+[2025-06-20 14:57:40.414]: Info: Trying encoder [nvenc]
+[2025-06-20 14:57:40.414]: Info: Screencasting with KMS
+[2025-06-20 14:57:40.414]: Info: /dev/dri/card1 -> i915
+[2025-06-20 14:57:40.414]: Error: Couldn't find monitor [0]
+[2025-06-20 14:57:40.414]: Info: /dev/dri/card1 -> i915
+[2025-06-20 14:57:40.414]: Error: Couldn't find monitor [0]
+[2025-06-20 14:57:40.615]: Info: Screencasting with KMS
+[2025-06-20 14:57:40.615]: Info: /dev/dri/card1 -> i915
+[2025-06-20 14:57:40.615]: Error: Couldn't find monitor [0]
+[2025-06-20 14:57:40.615]: Info: /dev/dri/card1 -> i915
+[2025-06-20 14:57:40.616]: Error: Couldn't find monitor [0]
+[2025-06-20 14:57:40.816]: Info: Encoder [nvenc] failed
+[2025-06-20 14:57:40.816]: Info: Trying encoder [vaapi]
+[2025-06-20 14:57:40.816]: Info: Screencasting with KMS
+[2025-06-20 14:57:40.816]: Info: /dev/dri/card1 -> i915
+[2025-06-20 14:57:40.816]: Info: Found monitor for DRM screencasting
+[2025-06-20 14:57:40.817]: Info: Found connector ID [81]
+[2025-06-20 14:57:40.817]: Info: Found cursor plane [42]
+[2025-06-20 14:57:40.818]: Error: Couldn't initialize va display: unknown libva error
+[2025-06-20 14:57:40.818]: Warning: Monitor  doesn't support hardware encoding. Reverting back to GPU -> RAM -> GPU
+[2025-06-20 14:57:40.818]: Info: /dev/dri/card1 -> i915
+[2025-06-20 14:57:40.818]: Info: Found monitor for DRM screencasting
+[2025-06-20 14:57:40.818]: Info: Found connector ID [81]
+[2025-06-20 14:57:40.819]: Info: Found cursor plane [42]
+[2025-06-20 14:57:40.847]: Info: Creating encoder [h264_vaapi]
+[2025-06-20 14:57:40.847]: Info: Color coding: SDR (Rec. 601)
+[2025-06-20 14:57:40.847]: Info: Color depth: 8-bit
+[2025-06-20 14:57:40.847]: Info: Color range: JPEG
+[2025-06-20 14:57:40.877]: Error: Couldn't initialize va display: unknown libva error
+[2025-06-20 14:57:40.880]: Info: Encoder [vaapi] failed
+[2025-06-20 14:57:40.883]: Info: Trying encoder [software]
+[2025-06-20 14:57:40.883]: Info: Screencasting with KMS
+[2025-06-20 14:57:40.883]: Info: /dev/dri/card1 -> i915
+[2025-06-20 14:57:40.884]: Info: Found monitor for DRM screencasting
+[2025-06-20 14:57:40.884]: Info: Found connector ID [81]
+[2025-06-20 14:57:40.885]: Info: Found cursor plane [42]
+[2025-06-20 14:57:40.912]: Info: Creating encoder [libx264]
+[2025-06-20 14:57:40.912]: Info: Color coding: SDR (Rec. 601)
+[2025-06-20 14:57:40.912]: Info: Color depth: 8-bit
+[2025-06-20 14:57:40.912]: Info: Color range: JPEG
+[2025-06-20 14:57:40.913]: Info: Streaming bitrate is 1000000
+[2025-06-20 14:57:40.915]: Info: [libx264 @ 0x7f02e404adc0] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[2025-06-20 14:57:40.917]: Info: [libx264 @ 0x7f02e404adc0] profile High, level 4.2, 4:2:0, 8-bit
+[2025-06-20 14:57:40.991]: Info: [libx264 @ 0x7f02e404adc0] frame I:1     Avg QP:31.02  size:  1235
+[2025-06-20 14:57:40.991]: Info: [libx264 @ 0x7f02e404adc0] mb I  I16..4: 99.9%  0.0%  0.0%
+[2025-06-20 14:57:40.991]: Info: [libx264 @ 0x7f02e404adc0] 8x8 transform intra:0.0%
+[2025-06-20 14:57:40.991]: Info: [libx264 @ 0x7f02e404adc0] coded y,uvDC,uvAC intra: 0.1% 0.0% 0.0%
+[2025-06-20 14:57:40.991]: Info: [libx264 @ 0x7f02e404adc0] i16 v,h,dc,p: 97%  0%  3%  0%
+[2025-06-20 14:57:40.991]: Info: [libx264 @ 0x7f02e404adc0] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu:  0%  0% 69% 12%  0%  0%  0%  0% 19%
+[2025-06-20 14:57:40.991]: Info: [libx264 @ 0x7f02e404adc0] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu:  0%  0% 94%  3%  0%  0%  0%  0%  3%
+[2025-06-20 14:57:40.992]: Info: [libx264 @ 0x7f02e404adc0] i8c dc,h,v,p: 100%  0%  0%  0%
+[2025-06-20 14:57:40.992]: Info: [libx264 @ 0x7f02e404adc0] kb/s:592.80
+[2025-06-20 14:57:40.992]: Info: Creating encoder [libx264]
+[2025-06-20 14:57:40.992]: Info: Color coding: SDR (Rec. 601)
+[2025-06-20 14:57:40.992]: Info: Color depth: 8-bit
+[2025-06-20 14:57:40.992]: Info: Color range: JPEG
+[2025-06-20 14:57:40.992]: Info: Streaming bitrate is 1000000
+[2025-06-20 14:57:40.996]: Info: [libx264 @ 0x7f02e404adc0] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[2025-06-20 14:57:40.999]: Info: [libx264 @ 0x7f02e404adc0] profile High 4:4:4 Predictive, level 4.2, 4:4:4, 8-bit
+[2025-06-20 14:57:41.103]: Info: [libx264 @ 0x7f02e404adc0] frame I:1     Avg QP:31.30  size:  1751
+[2025-06-20 14:57:41.103]: Info: [libx264 @ 0x7f02e404adc0] mb I  I16..4: 100.0%  0.0%  0.0%
+[2025-06-20 14:57:41.104]: Info: [libx264 @ 0x7f02e404adc0] 8x8 transform intra:0.0%
+[2025-06-20 14:57:41.104]: Info: [libx264 @ 0x7f02e404adc0] coded y,u,v intra: 0.1% 0.2% 0.1%
+[2025-06-20 14:57:41.104]: Info: [libx264 @ 0x7f02e404adc0] i16 v,h,dc,p: 97%  0%  3%  0%
+[2025-06-20 14:57:41.104]: Info: [libx264 @ 0x7f02e404adc0] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu:  0% 17% 58%  8%  0%  0%  0%  0% 17%
+[2025-06-20 14:57:41.104]: Info: [libx264 @ 0x7f02e404adc0] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu:  0%  0% 100%  0%  0%  0%  0%  0%  0%
+[2025-06-20 14:57:41.104]: Info: [libx264 @ 0x7f02e404adc0] kb/s:840.48
+[2025-06-20 14:57:41.108]: Info: Screencasting with KMS
+[2025-06-20 14:57:41.109]: Info: /dev/dri/card1 -> i915
+[2025-06-20 14:57:41.109]: Info: Found monitor for DRM screencasting
+[2025-06-20 14:57:41.109]: Info: Found connector ID [81]
+[2025-06-20 14:57:41.110]: Info: Found cursor plane [42]
+[2025-06-20 14:57:41.141]: Info: 
+[2025-06-20 14:57:41.141]: Info: // Ignore any errors mentioned above, they are not relevant. //
+[2025-06-20 14:57:41.141]: Info: 
+[2025-06-20 14:57:41.142]: Info: Found H.264 encoder: libx264 [software]
+[2025-06-20 14:57:41.223]: Info: New streaming session started [active sessions: 1]
+[2025-06-20 14:57:41.500]: Info: CLIENT CONNECTED
+[2025-06-20 14:57:41.501]: Info: /dev/dri/card1 -> i915
+[2025-06-20 14:57:41.502]: Info: Screencasting with KMS
+[2025-06-20 14:57:41.502]: Info: /dev/dri/card1 -> i915
+[2025-06-20 14:57:41.502]: Info: Found monitor for DRM screencasting
+[2025-06-20 14:57:41.503]: Info: Found connector ID [81]
+[2025-06-20 14:57:41.503]: Info: Found cursor plane [42]
+[2025-06-20 14:57:41.553]: Info: Creating encoder [libx264]
+[2025-06-20 14:57:41.553]: Info: Color coding: SDR (Rec. 601)
+[2025-06-20 14:57:41.553]: Info: Color depth: 8-bit
+[2025-06-20 14:57:41.553]: Info: Color range: MPEG
+[2025-06-20 14:57:41.553]: Info: Streaming bitrate is 30988000
+[2025-06-20 14:57:41.556]: Info: [libx264 @ 0x7f02c0001d80] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[2025-06-20 14:57:41.561]: Info: [libx264 @ 0x7f02c0001d80] profile High, level 4.1, 4:2:0, 8-bit
+[2025-06-20 14:57:41.760]: Info: Found default monitor by name: alsa_output.pci-0000_00_1b.0.analog-stereo.monitor
+[2025-06-20 14:57:41.923]: Info: Opus initialized: 48 kHz, 2 channels, 512 kbps (total), LOWDELAY
